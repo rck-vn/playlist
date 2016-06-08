@@ -1,0 +1,197 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+      font-family: "AvenirNextLTPro";
+      src: url("fonts/AvenirNextLTPro-Regular.otf") format("opentype");
+    }
+body{
+  background-color: #EEEEEE;
+  overflow: scroll;
+}
+header #frstPgFnt{
+  font-family: "AvenirNextLTPro", serif;
+  font-size: 170%;
+  text-align: justify;
+  width: 100%;
+  margin: 10% 0 0 5%;
+}
+#frstPgeHd{
+  position: fixed;
+  color: #EEEEEE;
+  background-color: #9B9B8C;
+  width: 100%;
+  height: 22.5vh;
+  border-bottom: 1px solid black;
+}
+#indexHd{
+  background-color: #9B9B8C;
+  width: 100%;
+  height: 6.5vh;
+  border-bottom: 1px solid black;
+}
+#frstPgFtr{
+  position: fixed;
+  color: #EEEEEE;
+  background-color: #686859;
+  width: 100%;
+  height: 6.5vh;
+  border-top: 1px solid none;
+  margin: 8.9% 0 0 0;
+}
+#indexFtr{
+  position: fixed;
+  color: #EEEEEE;
+  background-color: #686859;
+  width: 100%;
+  height: 6.5vh;
+  border-top: 1px solid none;
+  margin: 49.3% 0 0 0;
+}
+#footerFont{
+  font-family: "AvenirNextLTPro", serif;
+  font-size: 160%;
+  text-align: justify;
+  width: 100%;
+  margin: 1% 0 0 5%;
+}
+#track{
+  position: relative;
+  color: indigo;
+  font-family: "AvenirNextLTPro", serif;
+  font-size: 338%;
+  margin: 19% 0 0 13%;
+}
+#buttoni{
+  position: relative;
+  color: #EEEEEE;
+  font-family: "AvenirNextLTPro", serif;
+  font-size: 110%;
+  height: 5vh;
+  width: 29vh;
+  margin: 0 0 0 13%;
+  border-radius: 8px;
+  background-color: #353526;
+}
+#trainDiv{
+  position: relative;
+  height: auto;
+  width: 42vw;
+  margin: -26.7% 0 0 60%;
+
+}
+#trackImage{
+  position: relative;
+  max-height: 86.5vh;
+  max-width: 48vw;
+  height: auto;
+  width: auto;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+}
+#alb1{
+  position: absolute;
+  height: auto;
+  width: auto;
+  margin: -200px 0 0 589px;
+}
+#alb2{
+  position: absolute;
+  height: auto;
+  width: auto;
+  margin: -125px 0 0 589px;
+}
+#alb3{
+  position: absolute;
+  height: auto;
+  width: auto;
+  margin: 80px 0 0 589px;
+}
+#img1{
+  max-height: 27vh;
+  max-width: 25vw;
+  width: auto;
+  height: auto;
+  margin: -23% 0 0 57%;
+}
+#img2{
+  max-height: 27vh;
+  max-width: 25vw;
+  width: auto;
+  height: auto;
+  margin: 2% 0 0 57%;
+}
+#img3{
+  max-height: 27vh;
+  max-width: 25vw;
+  width: auto;
+  height: auto;
+  margin: 2% 0 0 57%;
+}
+section{
+  width:100%;
+  margin: 0 auto;
+  white-space:nowrap;
+  overflow: scroll;
+}
+.pic-container{
+  position: absolute;
+  margin: 16% 0 0 0;
+  width: 100%;
+}
+.pic-row{
+  overflow: scroll;
+  margin: 0 10% 0 17%;
+}
+.fpimgs{
+  /*float: left;
+  position: absolute;*/
+  max-height: 10.5vh;
+  max-width: 7.5vw;
+  height: auto;
+  width: auto;
+  margin-right: 2.5%;
+}
+#box{
+  overflow: scroll;
+  font-family: "AvenirNextLTPro", serif;
+  background-color: #EEEEEE;
+  height: 26vh;
+  width: 88vw;
+  border: 2px solid black;
+  margin: 23% 0 0 6%;
+}
+#buttDiv{
+  margin: 2% 0 0 8%;
+}
+#clearTracks{
+    position: relative;
+    color: #EEEEEE;
+    font-family: "AvenirNextLTPro", serif;
+    font-size: 110%;
+    height: 5vh;
+    width: 29vh;
+    border-radius: 8px;
+    background-color: #353526;
+}
+#submitButt{
+    position: relative;
+    color: #EEEEEE;
+    font-family: "AvenirNextLTPro", serif;
+    font-size: 110%;
+    height: 5vh;
+    width: 29vh;
+    border-radius: 8px;
+    background-color: #353526;
+}
+/*------------------*/
+
+
+/* div top & bottom color #9B9B8C
+/* body color #EEEEEE
+/* word color indigo
+/* button color #353526
+/* word inside the button color #EEEEEE
