@@ -6,130 +6,138 @@
       font-family: "AvenirNextLTPro";
       src: url("fonts/AvenirNextLTPro-Regular.otf") format("opentype");
     }
-body{
-  background-color: #EEEEEE;
-  overflow: scroll;
-}
-header #frstPgFnt{
-  font-family: "AvenirNextLTPro", serif;
-  font-size: 170%;
-  text-align: justify;
-  width: 100%;
-  margin: 10% 0 0 5%;
-}
-#frstPgeHd{
-  position: fixed;
-  color: #EEEEEE;
-  background-color: #9B9B8C;
-  width: 100%;
-  height: 22.5vh;
-  border-bottom: 1px solid black;
-}
 #indexHd{
+  height: 7vh;
   background-color: #9B9B8C;
-  width: 100%;
-  height: 6.5vh;
-  border-bottom: 1px solid black;
 }
-#frstPgFtr{
-  position: fixed;
-  color: #EEEEEE;
-  background-color: #686859;
-  width: 100%;
-  height: 6.5vh;
-  border-top: 1px solid none;
-  margin: 8.9% 0 0 0;
+#scdpghd{
+  height: 18vh;
+  background-color: #9B9B8C;
+  font-size: 1.9em;
 }
-#indexFtr{
-  position: fixed;
-  color: #EEEEEE;
-  background-color: #686859;
-  width: 100%;
-  height: 6.5vh;
-  border-top: 1px solid none;
-  margin: 49.3% 0 0 0;
+#scdpgfnt{
+  font-family: "AvenirNextLTPro",sans-serif;
+  color:#EEEEEE;
+  padding: 7% 0 0 4%;
 }
-#footerFont{
-  font-family: "AvenirNextLTPro", serif;
-  font-size: 160%;
-  text-align: justify;
+#container1{
+
+  height: 86vh;
   width: 100%;
-  margin: 1% 0 0 5%;
 }
-#track{
-  position: relative;
+#container2{
+  height: 75vh;
+  width: 100%;
+}
+#ind40{
+  float: left;
+  height: 100%;
+  width: 50%;
+}
+#wordTrack{
+  font-family: "AvenirNextLTPro",sans-serif;
+  font-size: 3.2em;
   color: indigo;
-  font-family: "AvenirNextLTPro", serif;
-  font-size: 338%;
-  margin: 19% 0 0 13%;
+  font-style: bold;
+  margin: 34% 0 0 35%;
 }
-#buttoni{
-  position: relative;
-  color: #EEEEEE;
-  font-family: "AvenirNextLTPro", serif;
-  font-size: 110%;
-  height: 5vh;
-  width: 29vh;
-  margin: 0 0 0 13%;
+#indBtn{
+  font-family: "AvenirNextLTPro",sans-serif;
+  font-size: .4em;
+  color:#EEEEEE;
   border-radius: 8px;
+  height: 5.6vh;
+  width: 25.5vh;
   background-color: #353526;
 }
-#trainDiv{
+#ind60{
   position: relative;
-  height: auto;
-  width: 42vw;
-  margin: -26.7% 0 0 60%;
-
-}
-#trackImage{
-  position: relative;
-  max-height: 86.5vh;
-  max-width: 48vw;
-  height: auto;
-  width: auto;
-  position: absolute;
+  float: right;
+  width: 50%;
+  height: 100%;
+  background-image: url(resources/track.jpg);
+  background-size: cover;
   z-index: -1;
   opacity: 0.4;
-  filter: alpha(opacity=40);
 }
-#alb1{
+#indexFtr{
+  height: 7vh;
+  background-color: #686859;
+  font-size: 1.6em;
+}
+#footerFont{
+  padding-top: 1%;
+  padding-left: 2%;
+  font-family: "AvenirNextLTPro",sans-serif;
+  color:#EEEEEE;
+}
+#box{
+ overflow: scroll;
+ font-family: "AvenirNextLTPro", serif;
+ background-color: #EEEEEE;
+ height: 26vh;
+ width: 88vw;
+ border: 2px solid black;
+ margin: 1% 0 0 6%;
+}
+#clearTracks{
+    position: relative;
+    font-family: "AvenirNextLTPro",sans-serif;
+    font-size: 1.4em;
+    color:#EEEEEE;
+    border-radius: 8px;
+    height: 5.6vh;
+    width: 25.5vh;
+    background-color: #353526;
+}
+#submitButt{
+    position: relative;
+    font-family: "AvenirNextLTPro",sans-serif;
+    font-size: 1.4em;
+    color:#EEEEEE;
+    border-radius: 8px;
+    height: 5.6vh;
+    width: 25.5vh;
+    background-color: #353526;
+}
+#buttDiv{
+  padding: 1% 0 0 10%;
+}
+.pic-container{
+
+  width: 100%;
+  height: 18vh;
+}
+.pic-row{
+  overflow: scroll;
+  margin: 0 10% 0 17%;
+}
+.imgIndx{
+
+}
+#imgIndx1{
   position: absolute;
-  height: auto;
-  width: auto;
-  margin: -200px 0 0 589px;
-}
-#alb2{
-  position: absolute;
-  height: auto;
-  width: auto;
-  margin: -125px 0 0 589px;
-}
-#alb3{
-  position: absolute;
-  height: auto;
-  width: auto;
-  margin: 80px 0 0 589px;
-}
-#img1{
   max-height: 27vh;
   max-width: 25vw;
   width: auto;
   height: auto;
-  margin: -23% 0 0 57%;
+  margin: .5% 0 0 18%;
 }
-#img2{
+#imgIndx2{
+  position: absolute;
   max-height: 27vh;
   max-width: 25vw;
   width: auto;
   height: auto;
-  margin: 2% 0 0 57%;
+  margin: 17% 0 0 18%;
 }
-#img3{
+#imgIndx3{
+  position: absolute;
   max-height: 27vh;
   max-width: 25vw;
   width: auto;
   height: auto;
-  margin: 2% 0 0 57%;
+  margin: 33% 0 0 18%;
 }
 section{
   width:100%;
@@ -137,61 +145,11 @@ section{
   white-space:nowrap;
   overflow: scroll;
 }
-.pic-container{
-  position: absolute;
-  margin: 16% 0 0 0;
-  width: 100%;
-}
-.pic-row{
-  overflow: scroll;
-  margin: 0 10% 0 17%;
-}
-.fpimgs{
-  /*float: left;
-  position: absolute;*/
-  max-height: 10.5vh;
-  max-width: 7.5vw;
+.firstpgimg{
+  max-height: 15.5vh;
+  max-width: 8.5vw;
   height: auto;
   width: auto;
+  margin-top: 1%;
   margin-right: 2.5%;
 }
-#box{
-  overflow: scroll;
-  font-family: "AvenirNextLTPro", serif;
-  background-color: #EEEEEE;
-  height: 26vh;
-  width: 88vw;
-  border: 2px solid black;
-  margin: 23% 0 0 6%;
-}
-#buttDiv{
-  margin: 2% 0 0 8%;
-}
-#clearTracks{
-    position: relative;
-    color: #EEEEEE;
-    font-family: "AvenirNextLTPro", serif;
-    font-size: 110%;
-    height: 5vh;
-    width: 29vh;
-    border-radius: 8px;
-    background-color: #353526;
-}
-#submitButt{
-    position: relative;
-    color: #EEEEEE;
-    font-family: "AvenirNextLTPro", serif;
-    font-size: 110%;
-    height: 5vh;
-    width: 29vh;
-    border-radius: 8px;
-    background-color: #353526;
-}
-/*------------------*/
-
-
-/* div top & bottom color #9B9B8C
-/* body color #EEEEEE
-/* word color indigo
-/* button color #353526
-/* word inside the button color #EEEEEE
